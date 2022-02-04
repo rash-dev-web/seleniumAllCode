@@ -29,6 +29,7 @@ public class GetSelectOptions {
 		System.out.println(sel.getOptions().size());
 		
 		System.out.println(sel.isMultiple());
+		sel.deselectAll();
 		
 		
 //		List<WebElement> allLinkes =  driver.findElements(By.tagName("a"));
